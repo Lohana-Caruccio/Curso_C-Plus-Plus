@@ -30,4 +30,3 @@ int main(){
 }
 
 // pode-se usar para comentário grande -> /* "Comentário" */
-// teste 
