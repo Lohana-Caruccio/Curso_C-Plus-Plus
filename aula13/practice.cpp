@@ -1,4 +1,4 @@
-//Arrays ou Vetores
+//Arrays(Unidimensionais)ou Vetores
 #include <iostream>
 
 using namespace std;
