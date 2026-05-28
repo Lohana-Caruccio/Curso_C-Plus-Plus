@@ -7,10 +7,23 @@ int fatorial(int num);
 
 int main () {
     
-    int res;
-    res = fatorial(5);
+    int valor = 5;
+
+    cout << "Fatorial de: " << valor << endl;
     
-    cout << " = " << res << endl;
+    for (int i = valor; i > 0; i--){
+        cout << i;
+
+        if (i > 1){
+            cout << " * ";
+        } else {
+            cout << " = ";
+        }
+    }
+
+    int res = fatorial(valor);
+
+    cout << res << endl;
 
     return 0;
 
@@ -18,10 +31,8 @@ int main () {
 
 int fatorial(int num) {
     if (num <= 1){
-        cout << num;
         return 1;
     } else {
-        cout << num << " * ";
         return num * fatorial(num - 1);
     }
 }
