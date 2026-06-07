@@ -6,14 +6,14 @@ using namespace std;
 
 int main () {
 
-    /* Métodos da classe queue
-- push()
-- pop ()
-- size()
-- empty()
-- back ()
-- front()
-*/
+//    Métodos da classe queue
+// - push()
+// - pop ()
+// - size()
+// - empty()
+// - back ()
+// - front()
+
     queue < string > cartas;
 
     cartas.push("Rei de Copas");
