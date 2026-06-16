@@ -54,5 +54,7 @@ int main () {
         carros[i].mostra();
     }
 
+    delete[] carros; // libera a memória alocada para o vetor de carros
+
     return 0;
 }
