@@ -5,7 +5,7 @@ using namespace std;
 
 int main () {
     int *p;
-    int vetor[10];
+    int vetor[10]; // vetor(ARRAY) != Vector
 
     p = vetor; // o nome do vetor é o endereço do primeiro elemento, mesma coisa que p = &vetor[0];
     *p = 10; // vetor[0] = 10;
