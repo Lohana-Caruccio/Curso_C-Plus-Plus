@@ -40,11 +40,11 @@ struct Carro {
 };
 
 int main () {
+    
+    Carro *carros = new Carro[3]; // Cria o array dinâmico de 3 espaços na memória Heap (Memória Dinâmica) (Os carros já nascem aqui!)
+    Carro car1, car2, car3, car4, car5; // Linha desnecessária, criou várias simples na stack, do tipo Carro
 
-    Carro *carros = new Carro[3];
-    Carro car1, car2, car3, car4, car5;
-
-    carros[0] = car1; carros[1] = car2; carros[2] = car3;
+    carros[0] = car1; carros[1] = car2; carros[2] = car3; // Linha desnecessária, colocou variáveis vazias dentro do array vazio
 
     carros[0].insere("Tornado", "Vermelho", 450, 350);
     carros[1].insere("Luxo", "Preto", 250, 260);
@@ -54,7 +54,7 @@ int main () {
         carros[i].mostra();
     }
 
-    delete[] carros; // libera a memória alocada para o vetor de carros
+    delete[] carros; // apaga o array inteiro alocado na memória dinâmica para o vetor de carros(ponteiro), liberando memória
 
     return 0;
 }
