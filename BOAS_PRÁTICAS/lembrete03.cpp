@@ -1,4 +1,4 @@
-// Lembretes sobre como usar iterators
+// Lembretes sobre como usar ITERATORS
 
 /*Containers de valor único
 ex: std::vector, std::list, std::set
