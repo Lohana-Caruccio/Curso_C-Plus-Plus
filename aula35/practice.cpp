@@ -1,4 +1,4 @@
-// Map
+// Map - CONTAINER de ASSOCIAÇÃO CHAVE-VALOR
 #include <iostream>
 #include <map>
 
